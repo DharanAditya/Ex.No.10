@@ -1,66 +1,253 @@
-# Ex.No.10
-Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
+# EX.NO.10 – CONTENT CREATION USING PROMPT PATTERNS
 
-## Date:
-## Reg. No.
+**Name:** Dharan Aditya S 
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+**Register Number:** 212223040035
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+## AIM
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+To demonstrate how different prompting techniques can be used with ChatGPT to create structured content such as reports, articles and case studies, and to study how prompt refinement improves the quality, accuracy and organization of the generated content.
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+---
+
+## PROMPT PATTERNS USED
+
+* **Query Decomposition:** Breaking a complex topic into smaller tasks.
+* **Decision Making:** Asking the AI to select the best option.
+* **Answer Engineering:** Specifying the required format and structure.
+* **Fact Check List:** Asking the AI to identify information that needs verification.
+* **Tail Generation:** Extending existing content logically.
+* **Menu Actions:** Providing multiple possible actions or directions.
+* **Semantic Filter:** Controlling tone, style, relevance and content.
+
+---
+
+# TEST CASE 1 – ARTICLE ON CLIMATE CHANGE
+
+## 1. Basic Prompt
+
+```text id="x1q7ma"
+Write an article about climate change.
+```
+
+### Output
+
+```text id="k8v3pd"
+Climate change refers to long-term changes in Earth's temperature
+and weather patterns. Human activities such as burning fossil fuels
+and deforestation contribute significantly to global warming.
+Climate change affects ecosystems, agriculture and human life.
+```
+
+---
+
+## 2. Query Decomposition Prompt
+
+```text id="p4n6yt"
+Write an article about climate change by covering:
+1. Meaning of climate change
+2. Major causes
+3. Environmental effects
+4. Effects on society
+5. Possible solutions
+6. Conclusion
+```
+
+### Output
+
+The generated article contained separate sections for the causes, effects, solutions and conclusion, making the content more organized and easier to understand.
+
+---
+
+## 3. Answer Engineering + Semantic Filter
+
+```text id="r9w2kc"
+Write a 700-word educational article on climate change.
+
+Structure it with:
+- Introduction
+- Causes
+- Environmental impacts
+- Social impacts
+- Solutions
+- Conclusion
+
+Use a formal and educational tone. Use simple language,
+avoid unnecessary repetition, and clearly distinguish
+established facts from general suggestions.
+```
+
+### Observation
+
+The refined prompt produced a more structured, readable and focused article compared with the basic prompt.
+
+---
+
+## 4. Fact Check List
+
+```text id="m5d8qa"
+Review the climate change article and create a fact-check list.
+Identify statements that require verification and mention the
+type of reliable source that should be consulted.
+```
+
+### Observation
+
+The AI identified factual claims that should be verified using reliable scientific or institutional sources before publication.
+
+---
+
+# TEST CASE 2 – BUSINESS CASE STUDY
+
+## Topic: Successful Digital Payment Application
+
+## 1. Basic Prompt
+
+```text id="v7k2le"
+Write a case study about a successful digital payment application.
+```
+
+### Output
+
+A general case study describing the application, its users, benefits and business growth was generated.
+
+---
+
+## 2. Query Decomposition
+
+```text id="q3c9nf"
+Create a business case study about a digital payment application.
+Divide the case study into:
+1. Background
+2. Problem
+3. Proposed solution
+4. Implementation
+5. Benefits
+6. Challenges
+7. Conclusion
+```
+
+### Observation
+
+Breaking the topic into smaller sections produced a more complete and logically organized case study.
+
+---
+
+## 3. Decision-Making Prompt
+
+```text id="z6h1rx"
+For a digital payment application, choose the most important
+business improvement among:
+A. Faster transactions
+B. Better security
+C. Customer support
+D. Marketing
+
+Select one option and explain why it should be prioritized.
+```
+
+### Output
+
+The AI selected **better security** as an important priority because protecting user transactions and personal information is essential for maintaining trust in a digital payment system.
+
+---
+
+## 4. Tail Generation
+
+```text id="t2p8ws"
+Continue the case study by adding a section on future improvements.
+Discuss security enhancement, user experience, scalability and
+new technological features while maintaining the same formal tone.
+```
+
+### Observation
+
+Tail generation extended the case study while maintaining continuity with the previous sections.
+
+---
+
+## 5. Menu Actions + Semantic Filter
+
+```text id="a4m7yx"
+Choose the next section for the case study:
+
+1. Future Improvements
+2. Business Challenges
+3. Customer Experience
+
+Select the most relevant option and write the section in a
+professional business-report style using concise and practical
+language.
+```
+
+### Observation
+
+The model selected a suitable direction and generated content according to the specified professional style.
+
+---
+
+# PROMPT REFINEMENT WORKFLOW
+
+```text id="n5r8cd"
+Topic Selection
+      ↓
+Basic Prompt
+      ↓
+Query Decomposition
+      ↓
+Decision Making
+      ↓
+Answer Engineering
+      ↓
+Fact Checking
+      ↓
+Tail Generation
+      ↓
+Semantic Filtering
+      ↓
+Final Content
+```
+
+---
+
+# OUTPUT EVALUATION
+
+### Coherence
+
+The refined prompts produced logically connected sections with better organization.
+
+### Creativity
+
+Additional prompt instructions helped generate more relevant ideas and examples.
+
+### Accuracy
+
+Fact-checking prompts helped identify information that should be verified before using the content.
+
+### Tone and Style
+
+Semantic filtering allowed the content to be generated in formal, educational and professional styles.
+
+### Overall Observation
+
+Advanced prompting produced more structured and useful content than a simple one-line prompt.
+
+---
+
+# DELIVERABLES
+
+1. First draft generated using a basic prompt.
+2. Refined content generated using advanced prompt patterns.
+3. Different prompt versions and corresponding outputs.
+4. Final structured content.
+5. Comparison and evaluation of the generated outputs.
+
+---
+
+## CONCLUSION
+
+The experiment demonstrated that different prompt patterns can significantly improve AI-generated content. **Query decomposition, decision making, answer engineering, fact checking, tail generation, menu actions and semantic filtering** helped produce content that was more structured, relevant, coherent and suitable for specific purposes.
+
+## RESULT
+
+Content for two different scenarios was successfully generated and refined using multiple prompting techniques. The experiment showed that **well-designed prompts provide better control over the structure, quality, tone and usefulness of AI-generated content**.
